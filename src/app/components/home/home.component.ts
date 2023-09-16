@@ -11,11 +11,6 @@ export class HomeComponent {
     private readonly _httpClient: HttpClient
   ) {
 
-  }
-  ngOnInit(
-  ): void {
-    this._httpClient.get('https://api.imgflip.com/get_memes').subscribe((data) => {
-      console.log('ahihi', data);
-    });
+
   }
 }

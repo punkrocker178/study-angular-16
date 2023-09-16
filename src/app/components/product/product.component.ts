@@ -11,7 +11,6 @@ params = null;
   constructor(private _activeRoute: ActivatedRoute) {
     this._activeRoute.queryParams.subscribe((qp) => {
       this.params = this._activeRoute.snapshot.params['id'] ?? 'No param';
-
     });
   }
 }

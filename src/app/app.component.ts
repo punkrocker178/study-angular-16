@@ -9,6 +9,5 @@ export class AppComponent {
   title = 'angular-16';
 
   click(): void {
-    console.log('a123');
   }
 }
