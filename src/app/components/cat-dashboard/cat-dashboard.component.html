@@ -1,0 +1,9 @@
+@for (breed of breeds(); track breed.id) {
+<div>
+    {{breed.id}} - {{breed.name}}
+</div>
+}
+
+@if (isLoadMore()) {
+    <button (click)="loadMore()">Load more</button>
+}
